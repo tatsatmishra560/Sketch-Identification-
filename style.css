@@ -1,0 +1,63 @@
+body {
+    background-color: #fbd139;
+}
+
+h1 {
+    color: rgb(156, 28, 157);
+    background-color: cyan;
+}
+
+#show_sketch {
+    float: right;
+}
+
+#show_sketch:hover {
+    background-image: linear-gradient(to top right, darkred, lightblue, yellowgreen, white);
+}
+
+canvas {
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {
+        box-shadow: 50px, 50px 100px grey;
+    }
+
+    to {
+        box-shadow: 1px 1px 38px mediumspringgreen;
+    }
+}
+
+
+p {
+    padding-top: 10px;
+    font-size: 25px;
+
+
+}
+
+.btn-danger:hover {
+    color: mediumvioletred;
+    background-image: linear-gradient(to top left, navy, lightyellow, gold, silver);
+}
+
+#button_sketch_to_be_drawn {
+    color: lightcoral;
+    font-size: 50px;
+}
+#score {
+    color: lightseagreen;
+    font-size: 40px;
+}
+
+#time {
+    color: lightslategrey;
+    font-size: 40px;
+    float:right;
+}
